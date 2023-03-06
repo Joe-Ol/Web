@@ -26,19 +26,41 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link text-black" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#other_projects">Other (Older Items)</a></li>
                         <li class="nav-item"><a class="nav-link text-black" href="#gists">Gists</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-black featured-text"> Projects</h2>  <br>    
+                <h2 class="text-black featured-text"> Projects (Recent)</h2>  <br>    
                 
 
                 <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Utafiti <i>(A Semantic Search Demo)</i></h4>
+                                    <p class="mb-0 text-white-50">
+                                        This is a search engine that uses a pre-trained sentence transformer model to encode the user query and the abstracts of the papers.
+                                        The encoded vectors are then used to find the most similar papers to the user query. Read more about it <a href="https://huggingface.co/spaces/eolang/utafiti/blob/main/README.md"> here.</a>
+                                    </p>
+                                    <p class="mb-0 text-white-50">Try out the live App <a href="https://huggingface.co/spaces/eolang/utafiti"> here.</a></p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/projects_imgs/project6.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
@@ -57,8 +79,18 @@
                     </div>
                 </div>
                 <hr>
+                
+            </div>
+        </section>
+        <!-- Projects Section End -->
 
-                <!-- Project Two Row-->
+        <!-- Other Projects -->
+        <section class="projects-sec-section bg-light" id="other_projects">
+            <div class="collapsible container bg-light">
+                <h4 class="text-black featured-text">Other (<i>Click to expand</i>)</h4> <br><br>
+                <div class="content">
+
+                <!-- 1-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/projects_imgs/project1.gif" alt="..." /></div>
                     <div class="col-lg-6">
@@ -78,7 +110,7 @@
                 </div>
                 <hr>
                 
-                <!-- Project Three Row-->
+                <!-- 2-->
                 <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/projects_imgs/project2.gif" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
@@ -96,7 +128,7 @@
                 </div>
                 <hr>
 
-                <!-- Project Four Row-->
+                <!-- 3-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/projects_imgs/project5.png" alt="..." /></div>
                     <div class="col-lg-6">
@@ -112,66 +144,66 @@
                         </div>
                     </div>
                 </div>
-                <hr>
-                
-            </div>
+
+
+                </div>
+              </div>              
         </section>
-        <!-- Projects Section End -->
 
         <!-- Gists -->
-        <section class="work-section bg-light" id="gists">
-            <div class="container" >
-                <h2 class="text-black featured-text"> Gists </h2>  <br>
-
-                <!-- Gist One Row-->
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <div class="workpadding">
-                        <h4 class="text-black text-left">Fine Tuning BERT Uncased for Swahili text classification</h4>
-                        <ul class="mb-0 text-black text-left">
-                            A notebook on fine tuning BERT Uncased MLM model for multiclass text classification of Swahili dataset.
-                            <script src="https://gist.github.com/e-olang/d1a5e78ef00968c26b7728e3871d6c05.js"></script>
-                        </ul>
+        <section class="projects-sec-section bg-light" id="gists">
+            <div class="collapsible container bg-light">
+                <h4 class="text-black featured-text">Gists (<i>Click to expand</i>)</h4>
+                <div class="content">
+                    <!-- Gist One Row-->
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <div class="workpadding">
+                            <h4 class="text-black text-left">Fine Tuning BERT Uncased for Swahili text classification</h4>
+                            <ul class="mb-0 text-black text-left">
+                                A notebook on fine tuning BERT Uncased MLM model for multiclass text classification of Swahili dataset.
+                                <script src="https://gist.github.com/e-olang/d1a5e78ef00968c26b7728e3871d6c05.js"></script>
+                            </ul>
+                        </div>
                     </div>
+                    <hr>
+                    
+                    <!-- Gist Two Row-->
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <div class="workpadding">
+                            <h4 class="text-black text-left">N-Gram Language Modelling</h4>
+                            <ul class="mb-0 text-black text-left">
+                                A brief illustration of language modelling using NLTK datasets and NLTK Library.
+                                <script src="https://gist.github.com/e-olang/539288ee7671230afcf7d69468e7e6b5.js"></script>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Gist Three Row-->
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                        <div class="workpadding">
+                            <h4 class="text-black text-left">Pillow Image Verification</h4>
+                            <ul class="mb-0 text-black text-left">
+                                Was having issues with the image verification for an image classifier. Needed verifcation to ensure that the image is a real image thus reduce chances of false positives.
+                                For this specific task images hade to have some green pigmnent. This is not ideal but it works for the purpose of this project.
+                                Resizing the image to 256 by 256 pixels reducues the area to check thus kind of efficient.
+                                If you have a better a way of doing this, please let me know. oluoch9@gmail.com
+                                <script src="https://gist.github.com/e-olang/faad4b692943d1906117748c0f02d743.js"></script>
+                            </ul>
+                        </div>
+                    </div> 
                 </div>
-                <hr>
-                
-                <!-- Gist Two Row-->
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <div class="workpadding">
-                        <h4 class="text-black text-left">N-Gram Language Modelling</h4>
-                        <ul class="mb-0 text-black text-left">
-                            A brief illustration of language modelling using NLTK datasets and NLTK Library.
-                            <script src="https://gist.github.com/e-olang/539288ee7671230afcf7d69468e7e6b5.js"></script>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Gist Three Row-->
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <div class="workpadding">
-                        <h4 class="text-black text-left">Pillow Image Verification</h4>
-                        <ul class="mb-0 text-black text-left">
-                            Was having issues with the image verification for an image classifier. Needed verifcation to ensure that the image is a real image thus reduce chances of false positives.
-                            For this specific task images hade to have some green pigmnent. This is not ideal but it works for the purpose of this project.
-                            Resizing the image to 256 by 256 pixels reducues the area to check thus kind of efficient.
-                            If you have a better a way of doing this, please let me know. oluoch9@gmail.com
-                            <script src="https://gist.github.com/e-olang/faad4b692943d1906117748c0f02d743.js"></script>
-                        </ul>
-                    </div>
-                </div> 
-            </div>
+              </div>              
         </section>
 
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; E.O 2023</div></footer>
-        <!-- Bootstrap core JS-->
+        <!-- Footer
+        <footer class="footer bg-white small text-center text-black-50">
+            <div class="container px-4 px-lg-5">
+                Copyright &copy; E.O 2023
+            </div>
+        </footer>
+        -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
