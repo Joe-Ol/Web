@@ -53,6 +53,7 @@
 
 body {
   margin: 0;
+  height: 100%;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
@@ -11187,7 +11188,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11271,4 +11272,53 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.collapsible {
+  background-color: #eee;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.collapsible h3 {
+  margin: 0;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+}
+
+
+.projects-sec-section {
+  padding: 0.5rem 0;
+}
+.projects-sec-section .featured-text {
+  padding: 0.5rem;
+}
+@media (min-width: 992px) {
+  .projects-sec-section .featured-text {
+    padding: 0 0 0 1rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.projects-sec-section .project-text {
+  padding: 0.5rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects-sec-section .project-text {
+    padding: 1rem;
+  }
+  .projects-sec-section .project-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
 }
