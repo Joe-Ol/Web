@@ -36,7 +36,7 @@
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-black featured-text"> Projects</h2>  <br>    
+                <h2 class="text-black featured-text"> Projects (Recent)</h2>  <br>    
                 
 
                 <!-- Project One Row-->
@@ -46,13 +46,12 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Swahili Language Model (Fill Mask) </h4>
+                                    <h4 class="text-white">Utafiti <i>(A Semantic Search Demo)</i></h4>
                                     <p class="mb-0 text-white-50">
-                                        Pre-trained on a large corpus of Swahili data in a self-supervised fashion. 
-                                        Focuses on the Masked Language Modeling (MLM) task. i.e. taking a sentence, the model randomly masks 15% of 
-                                        the words in the input then run the entire masked sentence through the model and has to predict the masked words. <br><br>
-                                        Read more about it <a href="https://huggingface.co/eolang/SW-v1"> here.</a>
+                                        This is a search engine that uses a pre-trained sentence transformer model to encode the user query and the abstracts of the papers.
+                                        The encoded vectors are then used to find the most similar papers to the user query. Read more about it <a href="https://huggingface.co/spaces/eolang/utafiti/blob/main/README.md"> here.</a>
                                     </p>
+                                    <p class="mb-0 text-white-50">Try out the live App <a href="https://huggingface.co/spaces/eolang/utafiti"> here.</a></p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
@@ -61,7 +60,25 @@
                 </div>
                 <hr>
 
-                
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/projects_imgs/project6.png" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Transcribing Videos</h4>
+                                    <p class="mb-0 text-white-50">Using Open AI's Whipser to transcribe audio to text. <br>
+                                                                    Audio files extracted from Youtube video URLs. 
+                                                                    Models used: Tiny, Base & Small.</p>
+                                    <p class="mb-0 text-white-50">Try out the live App <a href="https://huggingface.co/spaces/eolang/Whisper-Transcriber"> here.</a></p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
                 
             </div>
         </section>
@@ -70,15 +87,73 @@
         <!-- Other Projects -->
         <section class="projects-sec-section bg-light" id="other_projects">
             <div class="collapsible container bg-light">
-                <h4 class="text-black featured-text">Other</h4> <br><br>
+                <h4 class="text-black featured-text">Other (<i>Click to expand</i>)</h4> <br><br>
+                <div class="content">
+
+                <!-- 1-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/projects_imgs/project1.gif" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Swahili Word Embeddings Using <i>Word2Vec</i></h4>
+                                    <p class="mb-0 text-white-50">A demo on training word embeddings which can be used in place of Tf-Idf / BoW feature extraction approaches. 
+                                        This technique presents a words as a multi-dimension vector which allows us to capture word-to-word co-relations hence capturing context within text. 
+                                        If two words have similar meaning they will lie close to each other in the multi-dimension vector space</p>
+                                    <p class="mb-0 text-white-50">Read more about it <a href="https://github.com/e-olang/NLP/tree/main/Swahili/Word2Vec%20-%20Model"> here.</a></p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
                 
-            </div>              
+                <!-- 2-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/projects_imgs/project2.gif" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Animating Time Series Data</h4>
+                                    <p class="mb-0 text-white-50">A quick guied on how to animate values from time series data entries using Plotly library.</p>
+                                    <p class="mb-0 text-white-50">Read more about it <a href="https://github.com/e-olang/Drafts/tree/master/Visualizations/Covid19%20Vaccination%20Time%20Series"> here.</a></p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- 3-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/projects_imgs/project5.png" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Global Internet Speeds Visualization</h4>
+                                    <p class="mb-0 text-white-50">A simple visualizations of average Internet Speeds in cities across the globe.</p>
+                                    <p class="mb-0 text-white-50">See it  <a href="assets/demos/broadband_speeds_map.html"> here.</a></p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                </div>
+              </div>              
         </section>
 
         <!-- Gists -->
         <section class="projects-sec-section bg-light" id="gists">
             <div class="collapsible container bg-light">
-                <h4 class="text-black featured-text">Gists</h4>
+                <h4 class="text-black featured-text">Gists (<i>Click to expand</i>)</h4>
                 <div class="content">
                     <!-- Gist One Row-->
                     <div class="project-text w-100 my-auto text-center text-lg-left">
